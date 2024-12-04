@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>2</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -157,7 +157,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа:</v8:content>
+							<v8:content>Сумма :</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -165,19 +165,69 @@
 			<c>
 				<c>
 					<f>13</f>
+					<parameter>Сумма</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма документа:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>14</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>11</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>17</endRow>
+		<endRowOffset>25</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>120</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<height>7</height>
-	<vgRows>7</vgRows>
+	<height>19</height>
+	<vgRows>19</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>QRкод</name>
+		<drawingID>1</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -189,11 +239,21 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка</name>
+		<name>ОписаниеТовара</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
 			<endRow>6</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>7</beginRow>
+			<endRow>18</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -273,4 +333,11 @@
 		</format>
 		<autoIndent>0</autoIndent>
 	</format>
+	<format>
+		<fillType>Parameter</fillType>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false" ref="v8ui:МестоДляQRКода"/>
+	</picture>
 </document>

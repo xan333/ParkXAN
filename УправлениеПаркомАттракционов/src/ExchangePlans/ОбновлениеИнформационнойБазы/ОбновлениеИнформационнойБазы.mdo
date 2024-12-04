@@ -200,6 +200,9 @@
     <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.СнимкиОтчетов</mdObject>
   </content>
   <content>
@@ -323,6 +326,9 @@
     <mdObject>InformationRegister.СклоненияПредставленийОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.АттракционыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</mdObject>
   </content>
   <content>
@@ -423,6 +429,9 @@
   </content>
   <content>
     <mdObject>Catalog.ЗначенияСвойствОбъектовИерархия</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПродажаБилетаПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.МаксимальныйРазмерФайлаОбластиДанных</mdObject>
@@ -564,6 +573,9 @@
   </content>
   <content>
     <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.СинхронизироватьФайлы</mdObject>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="786283e4-3468-4b89-90b1-d47dec31911b">
+  <name>ОтчетыПоПосещениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по посещениям</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
